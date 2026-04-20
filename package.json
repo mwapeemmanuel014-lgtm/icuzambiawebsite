@@ -1,0 +1,32 @@
+{
+  "name": "icu-zambia-website",
+  "version": "1.0.0",
+  "description": "Modern responsive website for Information and Communication University Zambia",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 8000",
+    "build": "echo 'No build process required - static site'",
+    "test": "echo 'No tests configured'"
+  },
+  "keywords": [
+    "education",
+    "university",
+    "zambia",
+    "ict",
+    "bootstrap",
+    "responsive"
+  ],
+  "author": "ICU Zambia",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/icuzambia/website.git"
+  },
+  "homepage": "https://www.icuzambia.edu.zm",
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
